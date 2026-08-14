@@ -61,3 +61,65 @@ Operations wanted to:
 These goals could sometimes conflict.
 
 **DevOps emerged to reduce this gap by encouraging collaboration, automation, shared responsibility, and faster feedback between Development and Operations.**
+
+## Problems with the Traditional Approach
+
+The separation between Development and Operations often resulted in several problems:
+
+### 🐌 Slow Releases
+
+Changes had to pass through multiple manual steps and teams before reaching production.
+
+**Result:** New features and bug fixes took longer to release.
+
+### 👉 Blame Game
+
+When something went wrong, Dev and Ops could blame each other.
+
+* **Dev:** "The code works."
+* **Ops:** "The code doesn't work in production."
+
+This created friction instead of collaboration.
+
+### 🖐️ Manual Deployments
+
+Deployments were often performed manually.
+
+**Result:**
+
+* Higher risk of human error
+* Inconsistent deployment procedures
+* More time spent on repetitive tasks
+* Greater risk of production failures
+
+### 🔇 Lack of Feedback
+
+Developers might not receive fast or useful feedback about how their application behaved after deployment.
+
+**Result:** Problems could remain undetected until they became production incidents.
+
+### 🌍 Inconsistent Environments
+
+Development, testing, and production environments could differ.
+
+For example:
+
+```text
+Developer Machine
+      ↓
+Works perfectly
+      ↓
+Testing Environment
+      ↓
+Works differently
+      ↓
+Production
+      ↓
+💥 Failure
+```
+
+This is where the famous phrase comes from:
+
+> **"It works on my machine."**
+
+DevOps practices aim to reduce these problems through **automation, collaboration, standardized environments, continuous feedback, and shared responsibility.**
